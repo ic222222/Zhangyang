@@ -1,0 +1,20 @@
+public class homework{
+   public static void main(String[] args) { 
+   }
+}
+
+class Employee {
+   String name;
+   char gender;
+   int age;
+   String job;
+   double sal;
+   public Employee(String job,double sal) {
+   this.job = job;
+   this.sal = sal;
+   }
+   public Employee(char gender,int age) {
+   this.gender = gender;
+   this.name = name;
+   }
+}

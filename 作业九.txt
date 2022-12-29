@@ -1,0 +1,17 @@
+public class homework{
+   public static void main(String[] args) { 
+   }
+}
+
+public class NotePad extends Computer {
+   String color;
+   double sal;
+   public Employee(String job,double sal) {
+   this.job = job;
+   this.sal = sal;
+   }
+   public Employee(char gender,int age) {
+   this.gender = gender;
+   this.name = name;
+   }
+}

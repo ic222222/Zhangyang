@@ -1,0 +1,27 @@
+public class homework{
+   public static void main(String[] args){
+      Book m = new Book("一马平川",70);
+      m.info(); 
+      m.updatePrice();
+      m.info();
+   }
+}
+
+class Book{
+   String name;
+   double price;
+   public Book(String name, double price) {
+      this.name = name;
+      this.price = price;
+   }
+   public void updatePrice() {
+      if(this.price >= 150) {
+         this.price = 150; 
+      } else if(this.price >=100) {
+         this.price = 100; 
+      }
+   }
+   public void info() {
+      System.out.println("歌名=" + name + "价值=" + price);
+   }
+}

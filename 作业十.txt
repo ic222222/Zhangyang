@@ -1,0 +1,19 @@
+public class homework{
+   public static void main(String[] args) { 
+   }
+}
+
+class ABC {
+   String name;
+   char gender;
+   String job;
+   double sal;
+   public ABC(String job,double sal) {
+   this.job = job;
+   this.sal = sal;
+   }
+   public ABC(char gender,int age) {
+   this.gender = gender;
+   this.name = name;
+   }
+}

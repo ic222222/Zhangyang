@@ -1,0 +1,20 @@
+public class homework{
+   public static void main(String[] args) {
+      int[] oldArr = {10,20,30};
+      A03 m = new A03();
+      int[] newArr = m.copyArr(oldArr);
+      for(int i = 0; i < oldArr.length; i++) {
+           System.out.print(newArr[i] + "\t");
+      }
+   }
+}
+
+class A03 {
+   public int[] copyArr(int[] oldArr) {
+      int[] newArr = new int[oldArr.length];
+      for(int i = 0; i < oldArr.length; i++) {
+           newArr[i] = oldArr[i];
+      }
+      return newArr;
+   }
+}
