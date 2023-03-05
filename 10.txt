@@ -1,0 +1,26 @@
+package 作业;
+public class m1 {
+    public static void main(String[] args) {
+        cat instance = cat.getInstance();
+        System.out.println(instance);
+    }
+}
+class cat {
+    private String name;
+
+    private cat(String name) {
+        this.name = name;
+    }
+
+    private static cat a = new cat("小花");
+
+    public static cat getInstance(){
+        return a;
+    }
+    @Override
+    public String toString() {
+        return "cat{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}

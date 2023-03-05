@@ -1,0 +1,9 @@
+public class h2 extends h1 {
+
+    private String name;
+
+    public h2(String name,double x, double y) {
+        super(x, y);
+        this.name = name;
+    }
+}

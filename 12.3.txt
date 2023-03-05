@@ -1,0 +1,9 @@
+package 作业;
+
+public class m {
+    public static void main(String[] args) {
+        m3 k = new m3("han",166,888);
+        k.setBonus(500);
+        k.work();
+    }
+}

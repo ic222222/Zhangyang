@@ -1,0 +1,16 @@
+package 作业;
+
+public class m1 {
+    public static void main(String[] args) {
+        for(int i = 0; i < args.length; i++) {
+            System.out.println(args[i]);
+        }
+        a b = new a();
+        b.h();
+    }
+}
+class a{
+    public static void h(){
+        System.out.println("ahidsi");
+    }
+}
